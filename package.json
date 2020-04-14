@@ -1,0 +1,33 @@
+{
+  "name": "webChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon index.js",
+    "webpack": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narayac/VideoChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narayac/VideoChat/issues"
+  },
+  "homepage": "https://github.com/narayac/VideoChat#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "simple-peer": "^9.6.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
